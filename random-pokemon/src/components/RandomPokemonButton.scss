@@ -1,0 +1,24 @@
+.bottom-modes{
+    grid-row-start: 5;
+    grid-row-start: 5;
+    grid-column-start: 4;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100% 20% 100% 20%;
+    margin: 20px;
+    height: 40px;
+}
+.level-button {
+    background-color: #1697F9;
+    border: #71CDF4 5px solid;
+    color: gray;
+    cursor: pointer;
+}
+.pokedex-button{
+    background-color: #404040;
+    border: #303030 5px solid;
+    color: gray;
+    cursor: pointer;
+    width: -webkit-fill-available;
+    margin: 20px;
+}

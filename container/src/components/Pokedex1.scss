@@ -1,0 +1,23 @@
+.logo {
+    justify-self: start;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#pokedex {
+    height: calc(342px * 2);
+    width: calc(228px * 4);
+    display: flex;
+    border-radius: 10px;
+}
+  
+@media only screen and (max-width: 600px) {
+    #pokedex {
+      width: 90%;
+    }
+}
+  

@@ -1,0 +1,17 @@
+.stats-display {
+    background-color: #9fdab1;
+    border-radius: 0%;
+    border: 5px solid #E6E6E6;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    padding: 15px;
+    overflow: scroll;
+    margin: 20px;
+    height: 200px;
+    font-family: "Press Start 2P";
+}
+
+.stat-item {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
